@@ -15,5 +15,4 @@ for char in phrase:
         char = alphabet[index]
     encrypted_phrase += char
 
-
 print(encrypted_phrase)
