@@ -1,12 +1,12 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-shift = int(input("Number of spaces to shift: "))
-
-phrase = input("Please enter a word or phrase to encrypt: ")
+phrase = input("Please enter a sentence: ")
 
 phrase = phrase.lower()
 
 encrypted_phrase = ""
+
+shift = 5 
 
 for char in phrase:
     if char in alphabet:
@@ -15,4 +15,5 @@ for char in phrase:
         char = alphabet[index]
     encrypted_phrase += char
 
-print(encrypted_phrase)
+print("The encrypted sentence is:", encrypted_phrase)
+
