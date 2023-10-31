@@ -15,5 +15,5 @@ for char in phrase:
         char = alphabet[index]
     encrypted_phrase += char
 
-print("The encrypted sentence is: ", encrypted_phrase)
+print('The encrypted sentence is: ', + encrypted_phrase)
 
